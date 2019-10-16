@@ -7,10 +7,11 @@
     "data": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ullamcorper mi pellentesque ipsum condimentum, sed ornare odio pretium. Cras aliquam nibh id ligula rutrum, id ultrices leo tempor. Donec gravida consequat facilisis. Suspendisse quis metus pharetra nulla porta dictum in et lectus. Proin ex nisl, lacinia sit amet turpis quis, rutrum sodales sem. Etiam at ante ligula. Nulla dictum libero in egestas semper. Aenean interdum lacus quis metus posuere fermentum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed imperdiet mi est, eget consectetur orci hendrerit quis. Suspendisse at sapien vel neque bibendum porta id nec ante. Quisque vehicula, sem non maximus vehicula, nulla lectus tristique sem, a ultricies erat neque id ante. Quisque finibus diam at odio facilisis consequat at a neque. Aenean pulvinar placerat risus, vitae accumsan risus blandit sit amet."
   },
   {
-    "title": "Swedish Fishing",
-    "author": "Rachel L",
-    "category": "Leisure",
-    "hero": "autumnclouds.jpg"
+    "title": "YouTube Video",
+    "author": "Jordan Malcolm",
+    "category": "Vlog",
+    "hero": "autumnclouds.jpg",
+    "data": "<iframe style=\"min-height:500px;width:100%\" src=\"https://www.youtube.com/embed/B1q0SkijbL8\" allowfullscreen=\"true\"/> "
   },
   {
     "title": "The Adventure Begins",
