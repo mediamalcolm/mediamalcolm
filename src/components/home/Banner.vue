@@ -25,6 +25,7 @@
             color="primary"
             depressed
             round
+            to="/about"
           >
             About Me
           </v-btn>

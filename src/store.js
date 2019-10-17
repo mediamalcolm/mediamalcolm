@@ -20,6 +20,9 @@ export default new Vuex.Store({
     ],
   },
   getters: {
+    articles: state => {
+      return state.articles;
+    },
     categories: state => {
       const categories = []
 

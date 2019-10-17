@@ -1,17 +1,17 @@
 [
   {
-    "title": "Montage",
+    "title": "Vlog",
     "category": "Youtube",
     "hero": "moroccandays.jpg",
     "date": "10/15/2019",
-    "data": "<iframe style=\"min-height:500px;width:100%\" src=\"https://www.youtube.com/embed/B1q0SkijbL8\" allowfullscreen=\"true\"/> "
+    "data": "<iframe style=\"min-height:500px;width:100%\" frameBorder=\"0\" src=\"https://www.youtube.com/embed/nyejAGw3xpI\" allowfullscreen=\"true\"/> "
   },
   {
-    "title": "Contigo",
+    "title": "Montage",
     "category": "Youtube",
-    "date": "10/15/2019",
     "hero": "autumnclouds.jpg",
-    "data": "<iframe style=\"min-height:500px;width:100%\" src=\"https://www.youtube.com/embed/e9VP4QjXWW8\" allowfullscreen=\"true\"/> "
+    "date": "10/15/2019",
+    "data": "<iframe style=\"min-height:500px;width:100%\" frameBorder=\"0\" src=\"https://www.youtube.com/embed/B1q0SkijbL8\" allowfullscreen=\"true\"/> "
   },
   {
     "title": "The Adventure Begins",
@@ -23,7 +23,7 @@
     "category": "Youtube",
     "hero": "christmas.jpg",
     "date": "10/15/2019",
-    "data": "<iframe style=\"min-height:500px;width:100%\" src=\"https://www.youtube.com/embed/8srYPJNBMK8\" allowfullscreen=\"true\"/> "
+    "data": "<iframe style=\"min-height:500px;width:100%\" frameBorder=\"0\" src=\"https://www.youtube.com/embed/8srYPJNBMK8\" allowfullscreen=\"true\"/> "
 
   },
   {
@@ -31,7 +31,7 @@
     "category": "Youtube",
     "hero": "july4.jpg",
     "date": "10/15/2019",
-    "data": "<iframe style=\"min-height:500px;width:100%\" src=\"https://www.youtube.com/embed/uMGcpz8EduQ\" allowfullscreen=\"true\"/> "
+    "data": "<iframe style=\"min-height:500px;width:100%\" frameBorder=\"0\" src=\"https://www.youtube.com/embed/uMGcpz8EduQ\" allowfullscreen=\"true\"/> "
 
   },
   {
@@ -39,13 +39,15 @@
     "category": "Youtube",
     "hero": "firepots.jpg",
     "date": "10/15/2019",
-    "data": "<iframe style=\"min-height:500px;width:100%\" src=\"https://www.youtube.com/embed/7kOMtsEj3O8\" allowfullscreen=\"true\"/> "
+    "data": "<iframe style=\"min-height:500px;width:100%\" frameBorder=\"0\" src=\"https://www.youtube.com/embed/7kOMtsEj3O8\" allowfullscreen=\"true\"/> "
 
   },
   {
-    "title": "Water Ventures",
-    "category": "Leisure",
-    "hero": "jellyfish.jpg"
+    "title": "Contigo",
+    "category": "Youtube",
+    "hero": "jellyfish.jpg",
+    "date": "10/15/2019",
+    "data": "<iframe style=\"min-height:500px;width:100%\" frameBorder=\"0\" src=\"https://www.youtube.com/embed/B1q0SkijbL8\" allowfullscreen=\"true\"/> "
   },
   {
     "title": "Mt. Zekial",

@@ -9,9 +9,9 @@ npm run build
 cd dist
 
 # if you are deploying to a custom domain
-#echo 'edwardnguyen.me' > CNAME
+echo 'mediamalcolm.com' > CNAME
 
-#git init
+git init
 git add -A
 git commit -m 'deploy'
 # if you are deploying to https://<USERNAME>.github.io

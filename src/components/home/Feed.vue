@@ -12,9 +12,6 @@
 </template>
 
 <script>
-  import {
-    mapState,
-  } from 'vuex'
   import FeedCard from '@/components/home/FeedCard'
 
   export default {
@@ -29,7 +26,9 @@
     }),
 
     computed: {
-      ...mapState(['articles']),
+      articles () {
+        return this.$store.getters.articles
+      },
     },
 
   }
