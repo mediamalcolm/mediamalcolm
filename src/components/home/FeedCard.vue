@@ -33,7 +33,7 @@
               {{ value.title }}
             </h3>
             <div class="caption">
-              {{ value.author }}<br>Date
+              {{ value.date ? value.date : '' }}
             </div>
           </v-col>
           <v-col align-self="end">

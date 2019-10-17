@@ -1,17 +1,17 @@
 [
   {
-    "title": "Moroccan Days",
-    "author": "John L",
-    "category": "Travel",
+    "title": "Montage",
+    "category": "Youtube",
     "hero": "moroccandays.jpg",
-    "data": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ullamcorper mi pellentesque ipsum condimentum, sed ornare odio pretium. Cras aliquam nibh id ligula rutrum, id ultrices leo tempor. Donec gravida consequat facilisis. Suspendisse quis metus pharetra nulla porta dictum in et lectus. Proin ex nisl, lacinia sit amet turpis quis, rutrum sodales sem. Etiam at ante ligula. Nulla dictum libero in egestas semper. Aenean interdum lacus quis metus posuere fermentum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed imperdiet mi est, eget consectetur orci hendrerit quis. Suspendisse at sapien vel neque bibendum porta id nec ante. Quisque vehicula, sem non maximus vehicula, nulla lectus tristique sem, a ultricies erat neque id ante. Quisque finibus diam at odio facilisis consequat at a neque. Aenean pulvinar placerat risus, vitae accumsan risus blandit sit amet."
+    "date": "10/15/2019",
+    "data": "<iframe style=\"min-height:500px;width:100%\" src=\"https://www.youtube.com/embed/B1q0SkijbL8\" allowfullscreen=\"true\"/> "
   },
   {
-    "title": "YouTube Video",
-    "author": "Jordan Malcolm",
-    "category": "Vlog",
+    "title": "Contigo",
+    "category": "Youtube",
+    "date": "10/15/2019",
     "hero": "autumnclouds.jpg",
-    "data": "<iframe style=\"min-height:500px;width:100%\" src=\"https://www.youtube.com/embed/B1q0SkijbL8\" allowfullscreen=\"true\"/> "
+    "data": "<iframe style=\"min-height:500px;width:100%\" src=\"https://www.youtube.com/embed/e9VP4QjXWW8\" allowfullscreen=\"true\"/> "
   },
   {
     "title": "The Adventure Begins",
@@ -19,68 +19,66 @@
     "prominent": true
   },
   {
-    "title": "Paris in Spring",
-    "author": "John L",
-    "category": "Travel",
-    "hero": "christmas.jpg"
+    "title": "Assignment 1",
+    "category": "Youtube",
+    "hero": "christmas.jpg",
+    "date": "10/15/2019",
+    "data": "<iframe style=\"min-height:500px;width:100%\" src=\"https://www.youtube.com/embed/8srYPJNBMK8\" allowfullscreen=\"true\"/> "
+
   },
   {
-    "title": "Youthful Independence",
-    "author": "Rachel L",
-    "category": "Political",
-    "hero": "july4.jpg"
+    "title": "Assignment 2",
+    "category": "Youtube",
+    "hero": "july4.jpg",
+    "date": "10/15/2019",
+    "data": "<iframe style=\"min-height:500px;width:100%\" src=\"https://www.youtube.com/embed/uMGcpz8EduQ\" allowfullscreen=\"true\"/> "
+
   },
   {
-    "title": "Trial By Fire",
-    "author": "Anthony R",
-    "category": "Cooking",
-    "hero": "firepots.jpg"
+    "title": "Interview",
+    "category": "Youtube",
+    "hero": "firepots.jpg",
+    "date": "10/15/2019",
+    "data": "<iframe style=\"min-height:500px;width:100%\" src=\"https://www.youtube.com/embed/7kOMtsEj3O8\" allowfullscreen=\"true\"/> "
+
   },
   {
     "title": "Water Ventures",
-    "author": "Rachel L",
     "category": "Leisure",
     "hero": "jellyfish.jpg"
   },
   {
     "title": "Mt. Zekial",
-    "author": "Rachel L",
     "category": "Travel",
     "hero": "mountaincabin.jpg"
   },
   {
     "title": "Cozumel Caves",
-    "author": "Rachel L",
     "category": "Travel",
     "hero": "lightcave.jpg"
   },
   {
     "title": "Amazing Ireland",
-    "author": "Rachel L",
     "category": "Travel",
     "hero": "greengrass.jpg"
   },
   {
     "title": "Cabin Fever",
-    "author": "Rachel L",
     "category": "Travel",
     "hero": "snowcabin.jpg"
   },
   {
     "title": "To the ancient ruins",
-    "author": "Rachel L",
     "category": "Travel",
     "hero": "ruins.jpg"
   },
   {
     "title": "New fashion trends",
-    "author": "Rachel L",
     "category": "Travel",
     "hero": "umbrella.jpg"
   },
   {
     "title": "Go on a vacation",
-    "author": "Rachel L",
     "category": "Travel",
     "hero": "adventurecave.jpg"
   }
