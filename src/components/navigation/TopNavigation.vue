@@ -2,6 +2,8 @@
   <v-app-bar
     app
     flat
+    color="black"
+    class="nav"
   >
     <v-app-bar-nav-icon
       class="hidden-md-and-up"
@@ -27,6 +29,7 @@
           class="ml-0 hidden-sm-and-down"
           text
           @click="onClick($event, item)"
+          dark
         >
           {{ link.text }}
         </v-btn>
@@ -67,3 +70,9 @@
     },
   }
 </script>
+
+<style scoped>
+  .nav {
+    opacity: 0.9;
+  }
+</style>

@@ -2,9 +2,9 @@
   <v-card dark>
     <v-img
       class="grey lighten-2"
-      height="400"
+      height="90%"
       width="100%"
-      :src="require('@/assets/articles/blurcamera.jpg')"
+      :src="require('@/assets/articles/Banner.jpg')"
     >
       <v-row
         class="fill-height pa-3"
@@ -16,7 +16,7 @@
           offset-md="5"
         >
           <h1 class="display-3 font-weight-light">
-            Media Malcolm
+            <b>MEDIAMALCOLM</b>
           </h1>
           <div class="subheading text-uppercase pl-2 mb-4">
             The art of the Malcolm

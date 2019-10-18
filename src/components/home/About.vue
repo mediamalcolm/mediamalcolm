@@ -1,9 +1,10 @@
 <template>
   <v-container>
     <v-card
-      color="primary"
+      color="#FFF2CF"
       style="padding: 25px"
     >
+    <v-card-title>~This is me~</v-card-title>
       <v-card-text>
         Jordan is a dedicated and hard-working individual who is determined to master many different programs within a
         computer. When it comes to audio/video production and video editing, he is always up for a challenge.
@@ -14,7 +15,7 @@
       </v-card-text>
       <v-card-actions>
         <v-btn
-          color="secondary"
+          color="primary"
           to="/"
         >
           Close

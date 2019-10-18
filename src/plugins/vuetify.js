@@ -7,8 +7,8 @@ const opts = {
   theme: {
     themes: {
       light: {
-        primary: '#CBAA5C',
-        secondary: '#083759',
+        primary: '#BF1E1E',
+        secondary: '#D6AE3C',
       },
     },
     iconfont: 'mdi',

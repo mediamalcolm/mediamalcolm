@@ -6,6 +6,7 @@
         <feed />
       </div>
     </transition>
+    <!--TODO:  Make this into a separate page instead.-->
     <transition name="fade">
       <div v-if="showArticle !== null">
         <Article />

@@ -5,12 +5,13 @@
   >
     <v-card
       :height="value.prominent ? 450 : 350"
-      color="grey lighten-1"
+      color="#FFF2CF"
       dark
-      href="#!"
+      style="padding:5px"
+      @click="handleClick"
     >
       <v-img
-        :src="require(`@/assets/articles/${value.hero}`)"
+        :src="require(`@/assets/articles/${value.cardImage}`)"
         height="100%"
         gradient="rgba(0, 0, 0, .42), rgba(0, 0, 0, .42)"
       >
@@ -35,17 +36,6 @@
             <div class="caption">
               {{ value.date ? value.date : '' }}
             </div>
-          </v-col>
-          <v-col align-self="end">
-            <v-chip
-              class="text-uppercase ma-0"
-              color="primary"
-              label
-              small
-              @click="handleClick"
-            >
-              Read More
-            </v-chip>
           </v-col>
         </v-row>
       </v-img>

@@ -2,86 +2,89 @@
   {
     "title": "Vlog",
     "category": "Youtube",
-    "hero": "moroccandays.jpg",
+    "cardImage": "moroccandays.jpg",
     "date": "10/15/2019",
-    "data": "<iframe style=\"min-height:500px;width:100%\" frameBorder=\"0\" src=\"https://www.youtube.com/embed/nyejAGw3xpI\" allowfullscreen=\"true\"/> "
+    "url": "https://www.youtube.com/embed/nyejAGw3xpI",
+    "description": ""
   },
   {
     "title": "Montage",
     "category": "Youtube",
-    "hero": "autumnclouds.jpg",
+    "cardImage": "autumnclouds.jpg",
     "date": "10/15/2019",
-    "data": "<iframe style=\"min-height:500px;width:100%\" frameBorder=\"0\" src=\"https://www.youtube.com/embed/B1q0SkijbL8\" allowfullscreen=\"true\"/> "
+    "url": "https://www.youtube.com/embed/B1q0SkijbL8",
+    "description": ""
   },
   {
     "title": "The Adventure Begins",
-    "hero": "snowcup.jpg",
+    "cardImage": "snowcup.jpg",
     "prominent": true
   },
   {
     "title": "Assignment 1",
     "category": "Youtube",
-    "hero": "christmas.jpg",
+    "cardImage": "christmas.jpg",
     "date": "10/15/2019",
-    "data": "<iframe style=\"min-height:500px;width:100%\" frameBorder=\"0\" src=\"https://www.youtube.com/embed/8srYPJNBMK8\" allowfullscreen=\"true\"/> "
-
+    "url": "https://www.youtube.com/embed/8srYPJNBMK8",
+    "description": ""
   },
   {
     "title": "Assignment 2",
     "category": "Youtube",
-    "hero": "july4.jpg",
+    "cardImage": "july4.jpg",
     "date": "10/15/2019",
-    "data": "<iframe style=\"min-height:500px;width:100%\" frameBorder=\"0\" src=\"https://www.youtube.com/embed/uMGcpz8EduQ\" allowfullscreen=\"true\"/> "
-
+    "url": "https://www.youtube.com/embed/uMGcpz8EduQ",
+    "description": ""
   },
   {
     "title": "Interview",
     "category": "Youtube",
-    "hero": "firepots.jpg",
+    "cardImage": "firepots.jpg",
     "date": "10/15/2019",
-    "data": "<iframe style=\"min-height:500px;width:100%\" frameBorder=\"0\" src=\"https://www.youtube.com/embed/7kOMtsEj3O8\" allowfullscreen=\"true\"/> "
-
+    "url": "https://www.youtube.com/embed/7kOMtsEj3O8",
+    "description": ""
   },
   {
     "title": "Contigo",
     "category": "Youtube",
-    "hero": "jellyfish.jpg",
+    "cardImage": "jellyfish.jpg",
     "date": "10/15/2019",
-    "data": "<iframe style=\"min-height:500px;width:100%\" frameBorder=\"0\" src=\"https://www.youtube.com/embed/B1q0SkijbL8\" allowfullscreen=\"true\"/> "
+    "url": "https://www.youtube.com/embed/e9VP4QjXWW8",
+    "description": ""
   },
   {
     "title": "Mt. Zekial",
     "category": "Travel",
-    "hero": "mountaincabin.jpg"
+    "cardImage": "mountaincabin.jpg"
   },
   {
     "title": "Cozumel Caves",
     "category": "Travel",
-    "hero": "lightcave.jpg"
+    "cardImage": "lightcave.jpg"
   },
   {
     "title": "Amazing Ireland",
     "category": "Travel",
-    "hero": "greengrass.jpg"
+    "cardImage": "greengrass.jpg"
   },
   {
     "title": "Cabin Fever",
     "category": "Travel",
-    "hero": "snowcabin.jpg"
+    "cardImage": "snowcabin.jpg"
   },
   {
     "title": "To the ancient ruins",
     "category": "Travel",
-    "hero": "ruins.jpg"
+    "cardImage": "ruins.jpg"
   },
   {
     "title": "New fashion trends",
     "category": "Travel",
-    "hero": "umbrella.jpg"
+    "cardImage": "umbrella.jpg"
   },
   {
     "title": "Go on a vacation",
     "category": "Travel",
-    "hero": "adventurecave.jpg"
+    "cardImage": "adventurecave.jpg"
   }
 ]

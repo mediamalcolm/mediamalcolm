@@ -1,5 +1,5 @@
 <template>
-  <v-app>
+  <v-app class="main">
     <top-navigation />
 
     <!--<drawer />-->
@@ -27,3 +27,9 @@
     },
   }
 </script>
+
+<style scoped>
+  .main {
+    background-color: #4c4c4c;
+  }
+</style>
