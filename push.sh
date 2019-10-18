@@ -2,6 +2,7 @@
 # abort on errors
 set -e
 # cd ~/Documents/mediamalcolm/mediamalcolm
+git pull origin master
 git add .
 git commit -m 'Editing some files'
 git push origin master
