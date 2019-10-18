@@ -4,4 +4,4 @@ set -e
 
 git add .
 git commit -m 'Editing some files'
-git push -f https://github.com/mediamalcolm/mediamalcolm master
+git push origin master
