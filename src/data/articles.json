@@ -13,7 +13,7 @@
     "cardImage": "autumnclouds.jpg",
     "date": "10/15/2019",
     "url": "https://www.youtube.com/embed/B1q0SkijbL8",
-    "description": ""
+    "description": "Hello this is some text."
   },
   {
     "title": "The Adventure Begins",
@@ -26,6 +26,14 @@
     "cardImage": "christmas.jpg",
     "date": "10/15/2019",
     "url": "https://www.youtube.com/embed/8srYPJNBMK8",
+    "description": ""
+  },
+{
+    "title": "Montage",
+    "category": "Youtube",
+    "cardImage": "autumnclouds.jpg",
+    "date": "10/15/2019",
+    "url": "https://www.youtube.com/embed/B1q0SkijbL8",
     "description": ""
   },
   {
