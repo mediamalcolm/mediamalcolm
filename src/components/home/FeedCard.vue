@@ -1,8 +1,5 @@
 <template>
-  <v-col
-    :cols="size"
-    :class="classes"
-  >
+  <v-col :cols="size" :class="classes">
     <v-card
       :height="value.prominent ? 450 : 350"
       color="#FFF2CF"
@@ -10,15 +7,8 @@
       style="padding:5px"
       @click="handleClick"
     >
-      <v-img
-        :src="value.cardImage"
-        height="100%"
-        gradient="rgba(0, 0, 0, .42), rgba(0, 0, 0, .42)"
-      >
-        <v-row
-          v-if="!value.prominent"
-          class="fill-height text-right ma-0"
-        >
+      <v-img :src="value.cardImage" height="100%" gradient="rgba(0, 0, 0, .42), rgba(0, 0, 0, .42)">
+        <v-row v-if="!value.prominent" class="fill-height text-right ma-0">
           <v-col cols="12">
             <v-chip
               label
@@ -66,7 +56,8 @@
     },
     methods: {
       handleClick () {
-        this.$store.commit('setShowArticle', this.value)
+        this.$store.commit('setArticle', this.value);
+        this.$router.push({ name:'article', params: { id: this.value.title }});
       },
     },
   }

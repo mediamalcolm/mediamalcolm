@@ -6,15 +6,8 @@
       width="100%"
       :src="require('@/assets/articles/Banner.jpg')"
     >
-      <v-row
-        class="fill-height pa-3"
-        align="center"
-      >
-        <v-col
-          cols="12"
-          md="7"
-          offset-md="5"
-        >
+      <v-row class="fill-height pa-3" align="center">
+        <v-col cols="12" md="7" offset-md="5">
           <h1 class="display-3 font-weight-light">
             <b>MEDIAMALCOLM</b>
           </h1>
@@ -24,7 +17,6 @@
           <v-btn
             color="primary"
             depressed
-            round
             to="/about"
           >
             About Me

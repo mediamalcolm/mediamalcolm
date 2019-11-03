@@ -1,10 +1,12 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Index from './components/home/Index.vue'
-import About from './components/home/About.vue'
+import About from './components/about/Index.vue'
+import Faq from './components/faq/Index.vue'
+import Contact from './components/contact/Index.vue'
+import Article from './components/home/Article.vue'
 
-
-Vue.use(Router)
+Vue.use(Router);
 
 export default new Router({
   mode: 'history',
@@ -19,6 +21,21 @@ export default new Router({
       path: '/about',
       name: 'about',
       component: About,
+    },
+    {
+      path: '/faq',
+      name: 'faq',
+      component: Faq,
+    },
+    {
+      path: '/contact',
+      name: 'contact',
+      component: Contact,
+    },
+    {
+      path: '/article/:id',
+      name: 'article',
+      component: Article,
     },
   ],
 })

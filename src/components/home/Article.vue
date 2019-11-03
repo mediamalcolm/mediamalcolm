@@ -5,13 +5,11 @@
 </template>
 
 <script>
-  // TODO: Need to make this more generic so that About.vue can use this component too. Make the showArticle computed,
-  // TODO: be a prop instead or use a slot. The close button will also need to change.
+  // TODO: Need to make this flexible to other layouts. Add a prop to determine which layout to use.
   import VideoLayout from '@/components/layout/VideoLayout.vue';
   export default {
     name: 'Article',
-    components: {VideoLayout},
-    compoents: {
+    components: {
       VideoLayout,
     },
   }

@@ -11,12 +11,6 @@
       {{ article.description }}
     </v-card-text>
     <v-card-actions>
-      <v-btn
-        color="primary"
-        @click="handleClose"
-      >
-        Close
-      </v-btn>
     </v-card-actions>
   </v-card>
 </template>
@@ -26,13 +20,10 @@
     name: 'VideoLayout',
     computed: {
       article () {
-        return this.$store.getters.showArticle
+        return this.$store.getters.article;
       },
     },
     methods: {
-      handleClose () {
-        this.$store.commit('setShowArticle', null)
-      },
     },
   }
 </script>

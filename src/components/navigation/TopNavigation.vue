@@ -15,12 +15,12 @@
       <v-row align="center">
         <v-img
           :src="require('@/assets/logo.png')"
-          class="mr-5"
+          class="mr-5 icon"
           contain
           height="48"
           width="48"
           max-width="48"
-          @click="$vuetify.goTo(0)"
+          @click="handleIconClick"
         />
         <v-btn
           v-for="(link, i) in links"
@@ -28,19 +28,10 @@
           :to="link.to"
           class="ml-0 hidden-sm-and-down"
           text
-          @click="onClick($event, item)"
           dark
         >
           {{ link.text }}
         </v-btn>
-        <v-spacer />
-        <v-text-field
-          append-icon="mdi-magnify"
-          hide-details
-          solo-inverted
-          flat
-          style="max-width: 300px;"
-        />
       </v-row>
     </v-container>
   </v-app-bar>
@@ -60,12 +51,8 @@
 
     methods: {
       ...mapMutations(['toggleDrawer']),
-      onClick (e, item) {
-        e.stopPropagation()
-
-        if (item.to || !item.href) return
-
-        this.$vuetify.goTo(item.href)
+      handleIconClick() {
+        this.$router.push({name: 'home'});
       },
     },
   }
@@ -74,5 +61,8 @@
 <style scoped>
   .nav {
     opacity: 0.9;
+  }
+  .icon:hover {
+    cursor: pointer;
   }
 </style>

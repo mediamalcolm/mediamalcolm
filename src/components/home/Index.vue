@@ -1,24 +1,13 @@
 <template>
   <div>
-    <transition name="fade">
-      <div v-if="showArticle === null">
-        <banner />
-        <feed />
-      </div>
-    </transition>
-    <!--TODO:  Make this into a separate page instead.-->
-    <transition name="fade">
-      <div v-if="showArticle !== null">
-        <Article />
-      </div>
-    </transition>
+    <Banner />
+    <Feed />
   </div>
 </template>
 
 <script>
   import Feed from '@/components/home/Feed'
   import Banner from '@/components/home/Banner'
-  import Article from '@/components/home/Article'
 
   export default {
     name: 'Home',
@@ -26,12 +15,6 @@
     components: {
       Feed,
       Banner,
-      Article,
-    },
-    computed: {
-      showArticle () {
-        return this.$store.getters.showArticle
-      },
     },
 
   }

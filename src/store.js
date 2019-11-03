@@ -1,21 +1,26 @@
-import Vue from 'vue'
-import Vuex from 'vuex'
+import Vue from 'vue';
+import Vuex from 'vuex';
+import articles from '@/data/articles.json';
 
-Vue.use(Vuex)
+Vue.use(Vuex);
 
 export default new Vuex.Store({
   state: {
-    articles: require('@/data/articles.json'),
+    articles: articles,
     drawer: false,
-    showArticle: null,
+    article: null,
     items: [
       {
-        text: 'Home',
-        to: '/',
+        text: 'About',
+        to: '/about',
       },
       {
-        text: 'About',
-        href: '#about',
+        text: 'FAQ',
+        to: '/faq',
+      },
+      {
+        text: 'Contact',
+        to: '/contact',
       },
     ],
   },
@@ -24,15 +29,12 @@ export default new Vuex.Store({
       return state.articles;
     },
     categories: state => {
-      const categories = []
+      const categories = [];
 
       for (const article of state.articles) {
-        if (
-          !article.category ||
-          categories.find(category => category.text === article.category)
-        ) continue
+        if (!article.category || categories.find(category => category.text === article.category)) continue;
 
-        const text = article.category
+        const text = article.category;
 
         categories.push({
           text,
@@ -40,19 +42,22 @@ export default new Vuex.Store({
         })
       }
 
-      return categories.sort().slice(0, 4)
+      return categories.sort().slice(0, 4);
     },
     links: (state, getters) => {
-      return state.items.concat(getters.categories)
+      return state.items;
     },
-    showArticle: state => {
-      return state.showArticle
+    article: state => {
+      return state.article;
     },
+    filteredArticles: state => (filter) => {
+      return state.articles.filter(article => article.category === filter);
+    }
   },
   mutations: {
     setDrawer: (state, payload) => (state.drawer = payload),
     toggleDrawer: state => (state.drawer = !state.drawer),
-    setShowArticle: (state, payload) => (state.showArticle = payload),
+    setArticle: (state, payload) => (state.article = payload),
   },
   actions: {
 

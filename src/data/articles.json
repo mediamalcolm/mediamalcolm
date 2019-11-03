@@ -1,7 +1,7 @@
 [
   {
     "title": "Vlog",
-    "category": "Youtube",
+    "category": "Portfolio",
     "cardImage": "https://img.youtube.com/vi/nyejAGw3xpI/hqdefault.jpg",
     "date": "10/15/2019",
     "url": "https://www.youtube.com/embed/nyejAGw3xpI",
@@ -9,7 +9,7 @@
   },
   {
     "title": "Montage",
-    "category": "Youtube",
+    "category": "Portfolio",
     "cardImage": "autumnclouds.jpg",
     "date": "10/15/2019",
     "url": "https://www.youtube.com/embed/B1q0SkijbL8",
@@ -22,7 +22,7 @@
   },
   {
     "title": "Assignment 1",
-    "category": "Youtube",
+    "category": "Portfolio",
     "cardImage": "christmas.jpg",
     "date": "10/15/2019",
     "url": "https://www.youtube.com/embed/8srYPJNBMK8",
@@ -30,7 +30,7 @@
   },
 {
     "title": "Montage",
-    "category": "Youtube",
+    "category": "Portfolio",
     "cardImage": "autumnclouds.jpg",
     "date": "10/15/2019",
     "url": "https://www.youtube.com/embed/B1q0SkijbL8",
@@ -38,7 +38,7 @@
   },
   {
     "title": "Assignment 2",
-    "category": "Youtube",
+    "category": "Portfolio",
     "cardImage": "july4.jpg",
     "date": "10/15/2019",
     "url": "https://www.youtube.com/embed/uMGcpz8EduQ",
@@ -46,7 +46,7 @@
   },
   {
     "title": "Interview",
-    "category": "Youtube",
+    "category": "Portfolio",
     "cardImage": "firepots.jpg",
     "date": "10/15/2019",
     "url": "https://www.youtube.com/embed/7kOMtsEj3O8",
@@ -54,7 +54,7 @@
   },
   {
     "title": "Contigo",
-    "category": "Youtube",
+    "category": "Portfolio",
     "cardImage": "jellyfish.jpg",
     "date": "10/15/2019",
     "url": "https://www.youtube.com/embed/e9VP4QjXWW8",
