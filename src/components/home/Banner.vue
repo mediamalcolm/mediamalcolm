@@ -7,12 +7,12 @@
       :src="require('@/assets/articles/Banner.jpg')"
     >
       <v-row class="fill-height pa-3" align="center">
-        <v-col cols="12" md="7" offset-md="5">
+        <v-col cols="12" md="7" offset-md="2">
           <h1 class="display-3 font-weight-light">
             <b>MEDIAMALCOLM</b>
           </h1>
           <div class="subheading text-uppercase pl-2 mb-4">
-            The art of the Malcolm
+            Always on the go.
           </div>
           <v-btn
             color="primary"

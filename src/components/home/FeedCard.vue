@@ -56,8 +56,9 @@
     },
     methods: {
       handleClick () {
-        this.$store.commit('setArticle', this.value);
-        this.$router.push({ name:'article', params: { id: this.value.title }});
+        // this.$store.commit('setArticle', this.value);
+        // this.$router.push({ name:'article', params: { id: this.value.title }});
+        this.$emit('click', this.value);
       },
     },
   }

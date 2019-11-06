@@ -8,7 +8,6 @@
         <v-tab @click="handleFilter('Video')">Video</v-tab>
         <v-tab @click="handleFilter('Audio')">Audio</v-tab>
         <v-tab @click="handleFilter('Photo')">Photo</v-tab>
-
       </v-tabs>
     </v-row>
     <v-row>
@@ -17,24 +16,32 @@
         :key="article.title"
         :size="layout[i]"
         :value="article"
+        @click="handleClick"
       />
     </v-row>
+    <v-dialog v-model="openDialog" width="90%">
+      <VideoLayout :article="currentArticle"/>
+    </v-dialog>
   </v-container>
 </template>
 
 <script>
   import FeedCard from '@/components/home/FeedCard'
+  import VideoLayout from "../layout/VideoLayout";
 
   export default {
     name: 'Feed',
 
     components: {
+      VideoLayout,
       FeedCard,
     },
 
     data: () => ({
       layout: [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 12, 12, 12],
       articles: [],
+      openDialog: false,
+      currentArticle: null,
     }),
 
     methods: {
@@ -46,6 +53,10 @@
         else {
           this.articles = this.$store.getters.filteredArticles(filter);
         }
+      },
+      handleClick(article) {
+        this.openDialog = true;
+        this.currentArticle = article;
       }
     },
     mounted() {

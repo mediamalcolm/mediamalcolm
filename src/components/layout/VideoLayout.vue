@@ -1,30 +1,32 @@
 <template>
   <v-card color="#FFF2CF" style="padding: 25px">
+    <v-card-title class="lighten-2" primary-title>
+      {{article ? article.title : ''}}
+    </v-card-title>
+
     <iframe
       style="min-height:500px;width:100%"
       frameborder="0"
-      :src="article.url"
+      :src="article ? article.url : ''"
       allowfullscreen="true"
     ></iframe>
-    <!--Description of video-->
+
     <v-card-text>
-      {{ article.description }}
+      {{article ? article.description : ''}}
     </v-card-text>
-    <v-card-actions>
-    </v-card-actions>
   </v-card>
 </template>
 
 <script>
   export default {
     name: 'VideoLayout',
-    computed: {
-      article () {
-        return this.$store.getters.article;
+    props: {
+      article: {
+        type: Object,
+        required: true,
       },
     },
-    methods: {
-    },
+
   }
 </script>
 

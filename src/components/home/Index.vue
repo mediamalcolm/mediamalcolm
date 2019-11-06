@@ -1,33 +1,39 @@
 <template>
   <div>
     <Banner />
-    <Feed />
+    <v-container class="blog">
+      <BlogPost v-for="post in data" :data="post" :key="post" class="blog-post"/>
+    </v-container>
   </div>
 </template>
 
 <script>
-  import Feed from '@/components/home/Feed'
   import Banner from '@/components/home/Banner'
+  import BlogPostData from '@/data/blog-post-data.json'
+  import BlogPost from '@/components/home/BlogPost'
 
   export default {
     name: 'Home',
 
     components: {
-      Feed,
       Banner,
+      BlogPost,
     },
+    data() {
+      return {
+        data: BlogPostData,
+      }
+    }
 
   }
 </script>
 
 <style scoped>
-  .fade-enter-active, .fade-leave-active {
-    transition: opacity 0.3s;
+  .blog {
+    margin-top: 2em;
   }
-  .fade-enter, .fade-leave-to {
-    opacity: 0;
-  }
-  .fade-leave, .fade-enter-to {
-    opacity: 1;
+
+  .blog-post {
+    margin-bottom: 2em;
   }
 </style>

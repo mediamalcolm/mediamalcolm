@@ -5,6 +5,8 @@ import About from './components/about/Index.vue'
 import Faq from './components/faq/Index.vue'
 import Contact from './components/contact/Index.vue'
 import Article from './components/home/Article.vue'
+import Portfolio from './components/portfolio/Index.vue'
+
 
 Vue.use(Router);
 
@@ -31,6 +33,11 @@ export default new Router({
       path: '/contact',
       name: 'contact',
       component: Contact,
+    },
+    {
+      path: '/portfolio',
+      name: 'portfolio',
+      component: Portfolio,
     },
     {
       path: '/article/:id',

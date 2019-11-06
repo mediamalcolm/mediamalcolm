@@ -9,10 +9,14 @@ export default new Vuex.Store({
     articles: articles,
     drawer: false,
     article: null,
-    items: [
+    links: [
       {
         text: 'About',
         to: '/about',
+      },
+      {
+        text: 'Portfolio',
+        to: '/portfolio',
       },
       {
         text: 'FAQ',
@@ -44,8 +48,8 @@ export default new Vuex.Store({
 
       return categories.sort().slice(0, 4);
     },
-    links: (state, getters) => {
-      return state.items;
+    links: state => {
+      return state.links;
     },
     article: state => {
       return state.article;
