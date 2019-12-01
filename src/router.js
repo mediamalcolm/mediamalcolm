@@ -44,5 +44,9 @@ export default new Router({
       name: 'article',
       component: Article,
     },
+    {
+      path: '*',
+      component: Index,
+    },
   ],
 })

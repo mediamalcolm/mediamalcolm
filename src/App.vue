@@ -30,6 +30,6 @@
 
 <style scoped>
   .main {
-    background-color: #4c4c4c;
+    background-color: white;
   }
 </style>

@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <v-row>
-      <v-tabs centered color="primary" background-color="#FFF2CF" style="padding: 12px; border-radius: 3px">
+      <v-tabs centered color="primary" style="padding: 12px; border-radius: 3px">
         <v-tab @click="handleFilter('')">All</v-tab>
         <v-tab @click="handleFilter('Portfolio')">Portfolio</v-tab>
         <v-tab @click="handleFilter('Travel')">Travel</v-tab>
@@ -11,6 +11,7 @@
       </v-tabs>
     </v-row>
     <v-row>
+    <transition-group name="list" tag="feed-card" mode="out-in" style="display: flex;flex-flow: row wrap;margin: 0 auto;position: relative">
       <feed-card
         v-for="(article, i) in articles"
         :key="article.title"
@@ -18,7 +19,8 @@
         :value="article"
         @click="handleClick"
       />
-    </v-row>
+    </transition-group>
+  </v-row>
     <v-dialog v-model="openDialog" width="90%">
       <VideoLayout :article="currentArticle"/>
     </v-dialog>
@@ -26,7 +28,7 @@
 </template>
 
 <script>
-  import FeedCard from '@/components/home/FeedCard'
+  import FeedCard from '@/components/portfolio/FeedCard'
   import VideoLayout from "../layout/VideoLayout";
 
   export default {
@@ -57,7 +59,7 @@
       handleClick(article) {
         this.openDialog = true;
         this.currentArticle = article;
-      }
+      },
     },
     mounted() {
       this.articles = this.$store.getters.articles;
@@ -65,3 +67,25 @@
 
   }
 </script>
+
+<style scoped>
+  .list-enter-active {
+    transition: all .7s;
+  }
+
+  .list-leave-active {
+    transition: all .1s;
+    opacity: 0;
+    transform: translateY(0);
+    position: absolute;
+  }
+
+  .list-enter,
+  .list-leave-to {
+    opacity: 0;
+  }
+
+  .list-move {
+    transition: all .7s ease;
+  }
+</style>

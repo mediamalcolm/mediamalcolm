@@ -5,8 +5,7 @@
 </template>
 
 <script>
-  import Feed from '@/components/home/Feed'
-  import Banner from '@/components/home/Banner'
+  import Feed from '@/components/portfolio/Feed'
 
   export default {
     name: 'Home',
