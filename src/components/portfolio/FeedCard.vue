@@ -2,9 +2,9 @@
   <v-col :cols="size" :class="classes">
     <v-card
       :height="value.prominent ? 450 : 350"
-      color=""
+      color="primary"
       dark
-      style="padding:0px"
+      style="padding:3px"
       @click="handleClick"
     >
       <v-img :src="value.cardImage" height="100%" gradient="rgba(0, 0, 0, .42), rgba(0, 0, 0, .42)">

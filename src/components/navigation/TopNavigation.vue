@@ -22,6 +22,20 @@
           max-width="48"
           @click="handleIconClick"
         />
+        <span style="color:white; cursor: pointer" @click="handleIconClick">MEDIAMALCOLM</span>
+        <v-btn text icon href="https://www.facebook.com/mediamalcolm/" color="white">
+          <v-icon>mdi-facebook</v-icon>
+        </v-btn>
+        <v-btn text icon href="https://www.instagram.com/mediamalcolm/" color="white">
+          <v-icon>mdi-instagram</v-icon>
+        </v-btn>
+        <v-btn text icon href="https://www.twitter.com/mediamalcolm/" color="white">
+          <v-icon>mdi-twitter-box</v-icon>
+        </v-btn>
+        <v-btn text icon href="https://www.youtube.com/channel/UCwLSVBtWxcsKXij5C2XyFoA?view_as=subscriber" color="white">
+          <v-icon>mdi-youtube</v-icon>
+        </v-btn>
+        <v-spacer></v-spacer>
         <v-btn
           v-for="(link, i) in links"
           :key="i"

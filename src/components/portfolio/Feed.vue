@@ -4,7 +4,6 @@
       <v-tabs centered color="primary" style="padding: 12px; border-radius: 3px">
         <v-tab @click="handleFilter('')">All</v-tab>
         <v-tab @click="handleFilter('Portfolio')">Portfolio</v-tab>
-        <v-tab @click="handleFilter('Travel')">Travel</v-tab>
         <v-tab @click="handleFilter('Video')">Video</v-tab>
         <v-tab @click="handleFilter('Audio')">Audio</v-tab>
         <v-tab @click="handleFilter('Photo')">Photo</v-tab>
@@ -15,14 +14,17 @@
       <feed-card
         v-for="(article, i) in articles"
         :key="article.title"
-        :size="layout[i]"
+        :size="6"
         :value="article"
         @click="handleClick"
       />
     </transition-group>
   </v-row>
-    <v-dialog v-model="openDialog" width="90%">
-      <VideoLayout :article="currentArticle"/>
+    <v-dialog v-model="openDialog" width="90%" @click:outside="handleDialogClose">
+      <v-card>
+        <v-btn icon text @click="handleDialogClose"><v-icon>mdi-window-close</v-icon></v-btn>
+        <VideoLayout :article="currentArticle"/>
+      </v-card>
     </v-dialog>
   </v-container>
 </template>
@@ -40,7 +42,7 @@
     },
 
     data: () => ({
-      layout: [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 12, 12, 12],
+      // layout: [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 12, 12, 12],
       articles: [],
       openDialog: false,
       currentArticle: null,
@@ -60,6 +62,10 @@
         this.openDialog = true;
         this.currentArticle = article;
       },
+      handleDialogClose() {
+        this.openDialog = false;
+        this.currentArticle = null;
+      }
     },
     mounted() {
       this.articles = this.$store.getters.articles;

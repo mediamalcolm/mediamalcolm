@@ -1,9 +1,9 @@
 <template>
   <div>
     <Banner />
-    <v-container class="blog">
-      <BlogPost v-for="post in data" :data="post" :key="post" class="blog-post"/>
-    </v-container>
+    <!--<v-container class="blog">-->
+      <!--<BlogPost v-for="post in data" :data="post" :key="post" class="blog-post"/>-->
+    <!--</v-container>-->
   </div>
 </template>
 

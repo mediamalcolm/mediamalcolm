@@ -24,14 +24,6 @@
     "description": "This whole video was shot on a smartphone device."
   },
   {
-    "title": "Shooting with a Smartphone Exercise",
-    "category": "Portfolio",
-    "cardImage": "https://img.youtube.com/vi/fgbJAAGbreQ/hqdefault.jpg",
-    "date": "10/15/2019",
-    "url": "https://www.youtube.com/embed/fgbJAAGbreQ",
-    "description": "This whole video was shot on a smartphone device."
-  },
-  {
     "title": "Stabilizer Practice",
     "category": "Portfolio",
     "cardImage": "https://img.youtube.com/vi/I2zxLMm2eJs/hqdefault.jpg",
@@ -101,5 +93,19 @@
     "date": "10/15/2019",
     "cardImage": "https://photos.google.com/photo/AF1QipMo63ujYDPO0BOxgW5TnD_cGHN6ZAgS6gWuj4Dr",
     "description": "This is a picture which profiles a lifestlye."
+  },
+  {
+    "title": "Voice Track Assignment",
+    "category": "Audio",
+    "date": "10/15/2019",
+    "cardImage": "",
+    "description": ""
+  },
+  {
+    "title": "Audio 2",
+    "category": "Audio",
+    "date": "10/15/2019",
+    "cardImage": "",
+    "description": ""
   }
 ]

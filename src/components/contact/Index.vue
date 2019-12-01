@@ -1,7 +1,7 @@
 <template>
   <v-container>
-    <v-card color="#FFF2CF" style="padding: 25px">
-      <div style="margin-bottom: 1em" class="text-center display-2">~ Contact Me ~</div>
+    <div style="margin-bottom: 1em" class="text-center display-2">~ Contact Me ~</div>
+    <div class="form">
       <v-form>
         <v-text-field label="Name" outlined/>
         <v-text-field label="Email" outlined/>
@@ -9,7 +9,7 @@
         <v-textarea label="Body" outlined/>
         <v-btn color="primary">Send</v-btn>
       </v-form>
-    </v-card>
+    </div>
   </v-container>
 </template>
 
@@ -20,5 +20,9 @@
 </script>
 
 <style scoped>
-
+  .form {
+    border-left: 2px solid #bf1e1e;
+    padding-left: 20px;
+    margin-bottom: 10rem;
+  }
 </style>
