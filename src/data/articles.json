@@ -1,98 +1,105 @@
 [
   {
+    "title": "mediamalcolm - Lead Generator",
+    "category": "Video",
+    "cardImage": "https://img.youtube.com/vi/oQURFpzeFT8/hqdefault.jpg",
+    "date": "10/15/2019",
+    "url": "https://www.youtube.com/embed/oQURFpzeFT8",
+    "description": "This video is made to help those who want to make a music video."
+  },
+  {
+    "title": "mediamalcolm - Opener Exercise",
+    "category": "Portfolio",
+    "cardImage": "https://img.youtube.com/vi/Ex5e9y757F8/hqdefault.jpg",
+    "date": "10/15/2019",
+    "url": "https://www.youtube.com/embed/Ex5e9y757F8",
+    "description": "This video was made to assist the mediamalcolm brand. It is a work in progress and will be re-made in the future."
+  },
+  {
+    "title": "Shooting with a Smartphone Exercise",
+    "category": "Portfolio",
+    "cardImage": "https://img.youtube.com/vi/fgbJAAGbreQ/hqdefault.jpg",
+    "date": "10/15/2019",
+    "url": "https://www.youtube.com/embed/fgbJAAGbreQ",
+    "description": "This whole video was shot on a smartphone device."
+  },
+  {
+    "title": "Shooting with a Smartphone Exercise",
+    "category": "Portfolio",
+    "cardImage": "https://img.youtube.com/vi/fgbJAAGbreQ/hqdefault.jpg",
+    "date": "10/15/2019",
+    "url": "https://www.youtube.com/embed/fgbJAAGbreQ",
+    "description": "This whole video was shot on a smartphone device."
+  },
+  {
+    "title": "Stabilizer Practice",
+    "category": "Portfolio",
+    "cardImage": "https://img.youtube.com/vi/I2zxLMm2eJs/hqdefault.jpg",
+    "date": "10/15/2019",
+    "url": "https://www.youtube.com/embed/I2zxLMm2eJs",
+    "description": "This video was shot using a stabilizer."
+  },
+  {
+    "title": "An Influencer Exercise",
+    "category": "Portfolio",
+    "cardImage": "https://img.youtube.com/vi/W09z38uFnWo/hqdefault.jpg",
+    "date": "10/15/2019",
+    "url": "https://www.youtube.com/embed/W09z38uFnWo",
+    "description": "This was an exercise to practice my on camera performance."
+  },
+  {
     "title": "Vlog",
     "category": "Portfolio",
     "cardImage": "https://img.youtube.com/vi/nyejAGw3xpI/hqdefault.jpg",
     "date": "10/15/2019",
     "url": "https://www.youtube.com/embed/nyejAGw3xpI",
-    "description": ""
+    "description": "This video was made to help people learn the in's and the out's of Mac OS."
   },
   {
-    "title": "Montage",
+    "title": "Shooting a Montage",
     "category": "Portfolio",
-    "cardImage": "autumnclouds.jpg",
+    "cardImage": "https://img.youtube.com/vi/B1q0SkijbL8/hqdefault.jpg",
     "date": "10/15/2019",
     "url": "https://www.youtube.com/embed/B1q0SkijbL8",
-    "description": "Hello this is some text!"
+    "description": "This is a video made to exercise editing video to the beat of a music track, while using proper shooting techniques to record something in slow motion."
   },
   {
-    "title": "The Adventure Begins",
-    "cardImage": "snowcup.jpg",
-    "prominent": true
-  },
-  {
-    "title": "Assignment 1",
+    "title": "A Framing Exercise",
     "category": "Portfolio",
-    "cardImage": "christmas.jpg",
+    "cardImage": "https://img.youtube.com/vi/8srYPJNBMK8/hqdefault.jpg",
     "date": "10/15/2019",
     "url": "https://www.youtube.com/embed/8srYPJNBMK8",
-    "description": ""
-  },
-{
-    "title": "Montage",
-    "category": "Portfolio",
-    "cardImage": "autumnclouds.jpg",
-    "date": "10/15/2019",
-    "url": "https://www.youtube.com/embed/B1q0SkijbL8",
-    "description": ""
+    "description": "This video was made to help learn and test framing skills while shooting with a DSLR camera."
   },
   {
-    "title": "Assignment 2",
+    "title": "A Lighting Exercise",
     "category": "Portfolio",
-    "cardImage": "july4.jpg",
+    "cardImage": "https://img.youtube.com/vi/uMGcpz8EduQ/hqdefault.jpg",
     "date": "10/15/2019",
     "url": "https://www.youtube.com/embed/uMGcpz8EduQ",
-    "description": ""
+    "description": "This video was made to test out using three-point lighting kits. Allowing for a nicely lit interview."
   },
   {
-    "title": "Interview",
+    "title": "An Interview Exercise",
     "category": "Portfolio",
-    "cardImage": "firepots.jpg",
+    "cardImage": "https://img.youtube.com/vi/7kOMtsEj3O8/hqdefault.jpg",
     "date": "10/15/2019",
     "url": "https://www.youtube.com/embed/7kOMtsEj3O8",
-    "description": ""
+    "description": "This video was made to practice framing a shot for an interview."
   },
   {
-    "title": "Contigo",
+    "title": "Using a DSLR Camera",
     "category": "Portfolio",
-    "cardImage": "jellyfish.jpg",
+    "cardImage": "https://img.youtube.com/vi/e9VP4QjXWW8/hqdefault.jpg",
     "date": "10/15/2019",
     "url": "https://www.youtube.com/embed/e9VP4QjXWW8",
-    "description": ""
+    "description": "This was an exercise to test out the funcitons of a DSLR camera."
   },
   {
-    "title": "Mt. Zekial",
-    "category": "Travel",
-    "cardImage": "mountaincabin.jpg"
-  },
-  {
-    "title": "Cozumel Caves",
-    "category": "Travel",
-    "cardImage": "lightcave.jpg"
-  },
-  {
-    "title": "Amazing Ireland",
-    "category": "Travel",
-    "cardImage": "greengrass.jpg"
-  },
-  {
-    "title": "Cabin Fever",
-    "category": "Travel",
-    "cardImage": "snowcabin.jpg"
-  },
-  {
-    "title": "To the ancient ruins",
-    "category": "Travel",
-    "cardImage": "ruins.jpg"
-  },
-  {
-    "title": "New fashion trends",
-    "category": "Travel",
-    "cardImage": "umbrella.jpg"
-  },
-  {
-    "title": "Go on a vacation",
-    "category": "Travel",
-    "cardImage": "adventurecave.jpg"
+    "title": "Photography Lifestlye Assignment",
+    "category": "Photo",
+    "date": "10/15/2019",
+    "cardImage": "https://photos.google.com/photo/AF1QipMo63ujYDPO0BOxgW5TnD_cGHN6ZAgS6gWuj4Dr",
+    "description": "This is a picture which profiles a lifestlye."
   }
 ]
