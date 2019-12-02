@@ -15,7 +15,7 @@
       <v-row>
         <v-col cols="6" style="padding-top: 0">
           <ul class="footer__list">
-            <li style="display:flex; align-items: center">
+            <li class="footer__logo" @click="handleIconClick">
               <v-img
                 :src="require('@/assets/logo.png')"
                 class="icon"
@@ -24,7 +24,7 @@
                 width="48"
                 max-width="48"
               />
-              MEDIAMALCOLM
+              mediamalcolm
             </li>
             <li>mediamalcolm</li>
             <li>Kitchener, ON</li>
@@ -34,18 +34,18 @@
         </v-col>
         <v-col cols="6">
           <ul class="footer__list">
-            <li>FOLLOW MEDIAMALCOLM</li>
+            <li>FOLLOW mediamalcolm</li>
             <li>
-              <v-btn text icon href="https://www.facebook.com/mediamalcolm/">
+              <v-btn text icon href="https://www.facebook.com/mediamalcolm/" target="_blank">
                 <v-icon>mdi-facebook</v-icon>
               </v-btn>
-              <v-btn text icon href="https://www.instagram.com/mediamalcolm/">
+              <v-btn text icon href="https://www.instagram.com/mediamalcolm/" target="_blank">
                 <v-icon>mdi-instagram</v-icon>
               </v-btn>
-              <v-btn text icon href="https://www.twitter.com/mediamalcolm/">
+              <v-btn text icon href="https://www.twitter.com/mediamalcolm/" target="_blank">
                 <v-icon>mdi-twitter-box</v-icon>
               </v-btn>
-              <v-btn text icon href="https://www.youtube.com/channel/UCwLSVBtWxcsKXij5C2XyFoA?view_as=subscriber">
+              <v-btn text icon href="https://www.youtube.com/channel/UCwLSVBtWxcsKXij5C2XyFoA?view_as=subscriber" target="_blank">
                 <v-icon>mdi-youtube</v-icon>
               </v-btn>
             </li>
@@ -71,6 +71,11 @@
       //
       }
     },
+    methods: {
+      handleIconClick() {
+        this.$router.push({name: 'home'});
+      },
+    },
   }
 </script>
 
@@ -82,5 +87,11 @@
 
   .footer__list {
     list-style: none;
+  }
+
+  .footer__logo {
+    display:flex;
+    align-items: center;
+    cursor: pointer;
   }
 </style>

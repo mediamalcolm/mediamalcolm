@@ -103,31 +103,22 @@
     "category": "Photo",
     "layout": "gallery",
     "date": "10/15/2019",
-    "cardImage": "christmas.jpg",
-    "images": [
-      "christmas.jpg",
-      "firepots.jpg",
-      "rain.jpg",
-      "garden.jpg",
-      "snowcabin.jpg",
-      "ruins.jpg"
-    ],
+    "cardImage": "",
+    "images": [],
     "description": "This is a picture which profiles a lifestlye."
   },
   {
     "title": "Voice Track Assignment",
     "category": "Audio",
-    "layout": "audio",
     "date": "10/15/2019",
-    "cardImage": "christmas.jpg",
-    "url": "https://soundcloud.com/linkin_park/in-the-end",
+    "cardImage": "",
     "description": ""
   },
   {
     "title": "Audio 2",
     "category": "Audio",
     "date": "10/15/2019",
-    "cardImage": "christmas.jpg",
+    "cardImage": "",
     "description": ""
   }
 ]

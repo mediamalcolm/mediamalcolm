@@ -7,7 +7,9 @@
         <v-text-field label="Email" outlined/>
         <v-text-field label="Subject" outlined/>
         <v-textarea label="Body" outlined/>
-        <v-btn color="primary">Send</v-btn>
+        <v-btn color="primary" href="mailto:mediamalcolm.outlook.com" @click="handleSend" :loading="loading" :disabled="sent">
+          {{sent ? 'Sent' : 'Send'}}
+        </v-btn>
       </v-form>
     </div>
   </v-container>
@@ -16,6 +18,25 @@
 <script>
   export default {
     name: 'Contact',
+    data: () => ({
+      sent: false,
+      loading: false,
+    }),
+    methods: {
+      handleSend() {
+        this.loading = true;
+        this.sent = true;
+        setTimeout(() => (
+          this.loading = false
+        ), 3000);
+
+        this.loader = null
+      },
+    },
+  }
+</script>
+      },
+    }
   }
 </script>
 

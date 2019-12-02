@@ -19,20 +19,20 @@
           @click="handleIconClick"
         />
 
-        <span style="color:white; cursor: pointer" @click="handleIconClick">MEDIAMALCOLM</span>
+        <span style="color:white; cursor: pointer" @click="handleIconClick">mediamalcolm</span>
 
         <!--Social media links-->
         <span class="hidden-sm-and-down">
-        <v-btn text icon href="https://www.facebook.com/mediamalcolm/" color="white">
+        <v-btn text icon href="https://www.facebook.com/mediamalcolm/" color="white" target="_blank">
           <v-icon>mdi-facebook</v-icon>
         </v-btn>
-        <v-btn text icon href="https://www.instagram.com/mediamalcolm/" color="white">
+        <v-btn text icon href="https://www.instagram.com/mediamalcolm/" color="white" target="_blank">
           <v-icon>mdi-instagram</v-icon>
         </v-btn>
-        <v-btn text icon href="https://www.twitter.com/mediamalcolm/" color="white">
+        <v-btn text icon href="https://www.twitter.com/mediamalcolm/" color="white" target="_blank">
           <v-icon>mdi-twitter-box</v-icon>
         </v-btn>
-        <v-btn text icon href="https://www.youtube.com/channel/UCwLSVBtWxcsKXij5C2XyFoA?view_as=subscriber" color="white">
+        <v-btn text icon href="https://www.youtube.com/channel/UCwLSVBtWxcsKXij5C2XyFoA?view_as=subscriber" color="white" target="_blank">
           <v-icon>mdi-youtube</v-icon>
         </v-btn>
         </span>
@@ -47,6 +47,7 @@
           :text="link.text !== 'Contact'"
           dark
           :color="link.text === 'Contact' ? 'primary' : null"
+          style="margin: 5px"
         >
           {{ link.text }}
         </v-btn>

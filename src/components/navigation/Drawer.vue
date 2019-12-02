@@ -23,7 +23,7 @@
             />
             </v-list-item-avatar>
 
-            MEDIAMALCOLM
+            mediamalcolm
           </v-list-item-title>
         </v-list-item-content>
       </v-list-item>
