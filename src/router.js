@@ -5,7 +5,7 @@ import About from './components/about/Index.vue'
 import Faq from './components/faq/Index.vue'
 import Contact from './components/contact/Index.vue'
 import Article from './components/home/Article.vue'
-import Portfolio from './components/portfolio/Index.vue'
+import Work from './components/work/Index.vue'
 
 
 Vue.use(Router);
@@ -34,9 +34,9 @@ export default new Router({
       component: Contact,
     },
     {
-      path: '/portfolio',
-      name: 'portfolio',
-      component: Portfolio,
+      path: '/work',
+      name: 'work',
+      component: Work,
     },
     {
       path: '/article/:id',

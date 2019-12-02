@@ -1,8 +1,8 @@
 <template>
   <v-container>
-    <div class="text-center header">~ About mediamalcolm ~</div>
+    <div class="text-center header" style="margin-top: 3rem">~ About mediamalcolm ~</div>
 
-    <div class="section section--left-border">
+    <div class="section section--left-border test">
       <v-img
         :src="require('@/assets/articles/Banner.jpg')"
         class="mr-5 icon"
@@ -36,6 +36,10 @@
     margin-top: 5%;
   }
 
+  .section:last-child {
+    margin-bottom: 50%;
+  }
+
   .section--margin-bottom {
     margin-bottom: 10%;
   }
@@ -51,9 +55,7 @@
     text-align: right;
   }
 
-
   .header {
     font-size: 2.125rem;
-
   }
 </style>

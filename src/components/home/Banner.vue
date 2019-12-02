@@ -7,7 +7,7 @@
       ALWAYS ON THE GO<br>
     </div>
     <div class="banner__text banner__subheader" :style="'font-size:' + bannerSubHeaderFontSize">
-      <i>With Jordan Malcolm</i>
+      <i>with mediamalcolm</i>
     </div>
     <div class="banner__text banner__subtext" :style="'width:' + bannerSubTextWidth">
       The mediamalcolm brand is a digital media agency that specializes in producing professional content for our clients – from simple videos for social media, to a full-blown production – mediamalcolm offers it all. We are always on the go and we want you get a taste of what the mediamalcolm brand is all about.    </div>
@@ -89,12 +89,12 @@
 
   .banner__header {
     top: 150px;
-    color: #bf1e1e;
+    color: white;
   }
 
   .banner__subheader {
     top: 225px;
-    color: white;
+    color: #bf1e1e;
   }
 
   .banner__subtext {

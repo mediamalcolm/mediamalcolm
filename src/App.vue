@@ -2,7 +2,7 @@
   <v-app class="main">
     <top-navigation />
 
-    <!--<drawer />-->
+    <drawer />
 
     <v-content class="home">
       <router-view />
@@ -18,7 +18,7 @@
             <li style="display:flex; align-items: center">
               <v-img
                 :src="require('@/assets/logo.png')"
-                class="mr-5 icon"
+                class="icon"
                 contain
                 height="48"
                 width="48"
@@ -27,7 +27,7 @@
               MEDIAMALCOLM
             </li>
             <li>mediamalcolm</li>
-            <li>Kitchen, ON</li>
+            <li>Kitchener, ON</li>
             <li>mediamalcolm@outlook.com</li>
             <li>519.580.3378</li>
           </ul>

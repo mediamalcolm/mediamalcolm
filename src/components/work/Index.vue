@@ -5,7 +5,7 @@
 </template>
 
 <script>
-  import Feed from '@/components/portfolio/Feed'
+  import Feed from '@/components/work/Feed'
 
   export default {
     name: 'Home',

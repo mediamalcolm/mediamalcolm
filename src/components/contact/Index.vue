@@ -1,6 +1,6 @@
 <template>
   <v-container>
-    <div style="margin-bottom: 1em" class="text-center display-2">~ Contact Me ~</div>
+    <div style="margin-bottom: 1em" class="text-center display-2">~ Contact us ~</div>
     <div class="form">
       <v-form>
         <v-text-field label="Name" outlined/>
@@ -23,6 +23,6 @@
   .form {
     border-left: 2px solid #bf1e1e;
     padding-left: 20px;
-    margin-bottom: 10rem;
+    margin-bottom: 50%;
   }
 </style>

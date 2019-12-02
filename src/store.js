@@ -15,8 +15,8 @@ export default new Vuex.Store({
         to: '/about',
       },
       {
-        text: 'Portfolio',
-        to: '/portfolio',
+        text: 'Work',
+        to: '/work',
       },
       {
         text: 'FAQ',
