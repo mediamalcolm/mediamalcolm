@@ -7,7 +7,7 @@
         <v-text-field label="Email" outlined/>
         <v-text-field label="Subject" outlined/>
         <v-textarea label="Body" outlined/>
-        <v-btn color="primary" href="mailto:mediamalcolm.outlook.com" @click="handleSend" :loading="loading" :disabled="sent">
+        <v-btn color="primary" @click="handleSend" :loading="loading" :disabled="sent">
           {{sent ? 'Sent' : 'Send'}}
         </v-btn>
       </v-form>
