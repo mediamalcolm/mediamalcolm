@@ -23,7 +23,7 @@
       </div>
       <div class="body-1">
         Jordan Malcolm, founder of mediamalcolm graduated from Radio Broadcast, a two year diploma certificate program from Conestoga College.
-        He is currently working part-time as a Board Operator at a local radio station for sports programming and morning talk shows.
+        He is currently working part-time at 570 News Kitchener as a Board Operator for sports programming and morning talk shows.
       </div>
     </div>
   </v-container>
