@@ -4,7 +4,7 @@
       <div class="text-center question">
         ~ What type of products are available from mediamalcolm? ~
       </div>
-      <div class="body-1">
+      <div class="paragraph">
         mediamalcom provides a variety of multi media services, varying from audio to video.
 
         <br>For more information, send an email from the <router-link to="contact">contact</router-link> page.
@@ -14,17 +14,14 @@
       <div class="text-center question">
         ~ What programs does mediamalcolm use to edit? ~
       </div>
-      <div class="body-1">
+      <div class="paragraph">
         mediamalcolm uses a variety of softwares, but the focus is mainly on using Adobe Premiere Pro and Adobe After Effects for video along with Adobe Audition for sound.      </div>
     </div>
-    <div class="section section--left-border">
-      <div class="text-center question">
-        ~ What are mediamalcolm's qualifications as a multi media professional? ~
+    <div class="section text-center">
+      <div>
+        ~ Have a question? ~
       </div>
-      <div class="body-1">
-        Jordan Malcolm, founder of mediamalcolm graduated from Radio Broadcast, a two year diploma certificate program from Conestoga College.
-        He is currently working part-time at 570 News Kitchener as a Board Operator for sports programming and morning talk shows.
-      </div>
+      <v-btn color="primary" to="/contact">Ask me anything.</v-btn>
     </div>
   </v-container>
 </template>
@@ -64,5 +61,9 @@
 
   .question {
     margin-bottom: 20px;
+  }
+
+  .paragraph {
+    font-size: 1.1rem;
   }
 </style>

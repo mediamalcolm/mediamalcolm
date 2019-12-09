@@ -10,7 +10,7 @@
       <i>with mediamalcolm</i>
     </div>
     <div class="banner__text banner__subtext" :style="'width:' + bannerSubTextWidth">
-      mediamalcolm is a digital media agency that specializes in producing professional content for our clients – from simple videos for social media, to a full-blown production – mediamalcolm offers it all. We are always on the go and we want you get a taste of what mediamalcolm is all about.
+      mediamalcolm is a digital media agency that specializes in producing professional content for our clients – from simple videos for social media, to sound production for high quality voiceovers, audio touch-ups, and even radio commercials – We are always on the go and we want you get a taste of what mediamalcolm is all about.
     </div>
     <v-btn class="banner__text banner__cta" color="primary" :style="'top:' + bannerCTATop" to="contact">
       Schedule a free consultation
