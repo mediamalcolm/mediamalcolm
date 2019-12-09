@@ -38,7 +38,7 @@
           Working on your behalf, I will learn about your business/brand, your customers, and your competition (Keeping all sensitive information confidential, of course). Then I will apply that knowledge to produce content that meets your objectives.
           </div><br>
           <div class="section--left-border mb-5">
-          You’ll get a positive experience, personalized service and benefits of the high quality equipment mediamalcolm offers. Your project is important to me, and I look forward to developing content for you as you digital media agency.
+          You’ll get a positive experience, personalized service and benefits of the high quality equipment mediamalcolm offers. Your project is important to me, and I look forward to developing content for you as your digital media agency.
           </div>
         </div>
       </div>
