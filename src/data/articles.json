@@ -1,124 +1,191 @@
 [
   {
+    "title": "Surrealistic Cinemagraph",
+    "category": "Portfolio",
+    "layout": "gallery",
+    "date": "2019/04/22",
+    "cardImage": "JordanMCinemagraphPic.jpg",
+    "images": ["JordanMCinemagraph.gif"],
+    "description": "A looped video showcasing a dream/nightmare fantasy."
+  },
+  {
+    "title": "Long Exposure Photo",
+    "category": "Portfolio",
+    "layout": "gallery",
+    "date": "2019/04/22",
+    "cardImage": "1 - Slow Shutter.jpeg",
+    "images": ["1 - Slow Shutter.jpeg"],
+    "description": "A photo using the slow shutter priority mode at 30 seconds."
+  },
+  {
+    "title": "Fast Exposure Photo",
+    "category": "Portfolio",
+    "layout": "gallery",
+    "date": "2019/04/22",
+    "cardImage": "2 - Fast Shutter.jpeg",
+    "images": ["2 - Fast Shutter.jpeg"],
+    "description": "A photo using the fast shutter priority mode."
+  },
+  {
+    "title": "Aperture Progression",
+    "category": "Portfolio",
+    "layout": "gallery",
+    "date": "2019/04/22",
+    "cardImage": "Aperature Priority-Low.jpg",
+    "images": ["Aperature Priority-Low.jpg", "Aperature Priority-Med.jpg", "Aperature Priority-High.jpg"],
+    "description": "A series of 3 photos using aperture priority mode at 3 different intervals."
+  },
+  {
+    "title": "Surrealistic Poster",
+    "category": "Portfolio",
+    "layout": "gallery",
+    "date": "2019/04/22",
+    "cardImage": "JordanM-Part2.png",
+    "images": ["JordanM-Part2.png"],
+    "description": "A series of images transformed and blended together to form a dream/nightmare fantasy as a poster."
+  },
+  {
+    "title": "Narrative Imagery",
+    "category": "Portfolio",
+    "layout": "gallery",
+    "date": "2019/04/22",
+    "cardImage": "JordanM-Part1.png",
+    "images": ["JordanM-Part1.png"],
+    "description": "An image that portrays the empty highways due to COVID-19."
+  },
+  {
+    "title": "Reassigning Textures",
+    "category": "Portfolio",
+    "layout": "gallery",
+    "date": "2019/04/22",
+    "cardImage": "WoodenWolf.jpg",
+    "images": ["WoodenWolf.jpg"],
+    "description": "An image where a wooden texture was reassigned with a white wolf."
+  },
+  {
+    "title": "Cinemagraph",
+    "category": "Portfolio",
+    "layout": "gallery",
+    "date": "2019/04/22",
+    "cardImage": "BigWaterfall.jpg",
+    "images": ["BigWaterfall.gif"],
+    "description": "A looped video showcasing a waterfall."
+  },
+  {
+    "title": "Controlled Light",
+    "category": "Portfolio",
+    "layout": "gallery",
+    "date": "2019/04/22",
+    "cardImage": "StudioLight-StillLife.jpeg",
+    "images": ["ColouredGel-Headshot.jpeg","ColouredGel-StillLife.jpeg", "NaturalLight-Headshot.jpeg", "StudioLight-StillLife.jpeg", "WindowKeyLight-StillLife.jpeg"],
+    "description": "A series of images that showcase the use of light in natural as well as studio environments."
+  },
+  {
+    "title": "Architectural Imagery",
+    "category": "Portfolio",
+    "layout": "gallery",
+    "date": "2019/04/22",
+    "cardImage": "Architechural.jpeg",
+    "images": ["Architechural.jpeg"],
+    "description": "An image that features a piece of architecture."
+  },
+  {
     "title": "mediamalcolm - Lead Generator",
-    "category": "Video",
+    "category": "School Work",
     "layout": "video",
     "cardImage": "https://img.youtube.com/vi/oQURFpzeFT8/hqdefault.jpg",
-    "date": "10/15/2019",
+    "date": "2019/10/15",
     "url": "https://www.youtube.com/embed/oQURFpzeFT8",
     "description": "This video is made to help those who want to make a music video."
   },
   {
     "title": "mediamalcolm - Opener Exercise",
-    "category": "Portfolio",
+    "category": "School Work",
     "layout": "video",
     "cardImage": "https://img.youtube.com/vi/Ex5e9y757F8/hqdefault.jpg",
-    "date": "10/15/2019",
+    "date": "2019/10/15",
     "url": "https://www.youtube.com/embed/Ex5e9y757F8",
     "description": "This video was made to assist the mediamalcolm brand. It is a work in progress and will be re-made in the future."
   },
   {
     "title": "Shooting with a Smartphone Exercise",
-    "category": "Portfolio",
+    "category": "School Work",
     "layout": "video",
     "cardImage": "https://img.youtube.com/vi/fgbJAAGbreQ/hqdefault.jpg",
-    "date": "10/15/2019",
+    "date": "2019/10/15",
     "url": "https://www.youtube.com/embed/fgbJAAGbreQ",
     "description": "This whole video was shot on a smartphone device."
   },
   {
     "title": "Stabilizer Practice",
-    "category": "Portfolio",
+    "category": "School Work",
     "layout": "video",
     "cardImage": "https://img.youtube.com/vi/I2zxLMm2eJs/hqdefault.jpg",
-    "date": "10/15/2019",
+    "date": "2019/10/15",
     "url": "https://www.youtube.com/embed/I2zxLMm2eJs",
     "description": "This video was shot using a stabilizer."
   },
   {
     "title": "An Influencer Exercise",
-    "category": "Portfolio",
+    "category": "School Work",
     "layout": "video",
     "cardImage": "https://img.youtube.com/vi/W09z38uFnWo/hqdefault.jpg",
-    "date": "10/15/2019",
+    "date": "2019/10/15",
     "url": "https://www.youtube.com/embed/W09z38uFnWo",
     "description": "This was an exercise to practice my on camera performance."
   },
   {
     "title": "Vlog",
-    "category": "Portfolio",
+    "category": "School Work",
     "layout": "video",
     "cardImage": "https://img.youtube.com/vi/nyejAGw3xpI/hqdefault.jpg",
-    "date": "10/15/2019",
+    "date": "2019/10/15",
     "url": "https://www.youtube.com/embed/nyejAGw3xpI",
     "description": "This video was made to help people learn the in's and the out's of Mac OS."
   },
   {
     "title": "Shooting a Montage",
-    "category": "Portfolio",
+    "category": "School Work",
     "layout": "video",
     "cardImage": "https://img.youtube.com/vi/B1q0SkijbL8/hqdefault.jpg",
-    "date": "10/15/2019",
+    "date": "2019/10/15",
     "url": "https://www.youtube.com/embed/B1q0SkijbL8",
     "description": "This is a video made to exercise editing video to the beat of a music track, while using proper shooting techniques to record something in slow motion."
   },
   {
     "title": "A Framing Exercise",
-    "category": "Portfolio",
+    "category": "School Work",
     "layout": "video",
     "cardImage": "https://img.youtube.com/vi/8srYPJNBMK8/hqdefault.jpg",
-    "date": "10/15/2019",
+    "date": "2019/10/15",
     "url": "https://www.youtube.com/embed/8srYPJNBMK8",
     "description": "This video was made to help learn and test framing skills while shooting with a DSLR camera."
   },
   {
     "title": "A Lighting Exercise",
-    "category": "Portfolio",
+    "category": "School Work",
     "layout": "video",
     "cardImage": "https://img.youtube.com/vi/uMGcpz8EduQ/hqdefault.jpg",
-    "date": "10/15/2019",
+    "date": "2019/10/15",
     "url": "https://www.youtube.com/embed/uMGcpz8EduQ",
     "description": "This video was made to test out using three-point lighting kits. Allowing for a nicely lit interview."
   },
   {
     "title": "An Interview Exercise",
-    "category": "Portfolio",
+    "category": "School Work",
     "layout": "video",
     "cardImage": "https://img.youtube.com/vi/7kOMtsEj3O8/hqdefault.jpg",
-    "date": "10/15/2019",
+    "date": "2019/10/15",
     "url": "https://www.youtube.com/embed/7kOMtsEj3O8",
     "description": "This video was made to practice framing a shot for an interview."
   },
   {
     "title": "Using a DSLR Camera",
-    "category": "Portfolio",
+    "category": "School Work",
     "layout": "video",
     "cardImage": "https://img.youtube.com/vi/e9VP4QjXWW8/hqdefault.jpg",
-    "date": "10/15/2019",
+    "date": "2019/10/15",
     "url": "https://www.youtube.com/embed/e9VP4QjXWW8",
     "description": "This was an exercise to test out the funcitons of a DSLR camera."
-  },
-  {
-    "title": "Photography Lifestlye Assignment",
-    "category": "Photo",
-    "layout": "gallery",
-    "date": "10/15/2019",
-    "cardImage": "",
-    "images": [],
-    "description": "This is a picture which profiles a lifestlye."
-  },
-  {
-    "title": "Voice Track Assignment",
-    "category": "Audio",
-    "date": "10/15/2019",
-    "cardImage": "",
-    "description": ""
-  },
-  {
-    "title": "Audio 2",
-    "category": "Audio",
-    "date": "10/15/2019",
-    "cardImage": "",
-    "description": ""
   }
 ]

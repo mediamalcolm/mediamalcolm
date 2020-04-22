@@ -10,8 +10,7 @@
       <i>with mediamalcolm</i>
     </div>
     <div class="banner__text banner__subtext" :style="'width:' + bannerSubTextWidth">
-      mediamalcolm is a digital media agency that specializes in producing professional content for our clients – from simple videos for social media, to sound production for high quality voiceovers, audio touch-ups, and even radio commercials – We are always on the go and we want you get a taste of what mediamalcolm is all about.
-    </div>
+      We specialize in producing high quality media content for businesses and brands to help you stand out. From short videos for social media, professional voiceovers, to audio touch-ups, and radio commercials - We are always on the go and we want you to get a taste of what mediamalcolm is all about.    </div>
     <v-btn class="banner__text banner__cta" color="primary" :style="'top:' + bannerCTATop" to="contact">
       Schedule a free consultation
     </v-btn>

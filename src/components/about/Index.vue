@@ -6,7 +6,7 @@
       <div class="section__subheader">~ Jordan Malcolm ~</div>
       <div class="section--left-border test">
         <v-img
-          :src="require('@/assets/articles/Banner.jpg')"
+          :src="require('@/assets/Banner.jpg')"
           contain
           height="30%"
           width="30%"
@@ -17,31 +17,40 @@
 
     <div class="section">
       <div class="section__subheader">~ Always On The Go ~</div>
-      <div class="section--margin-bottom">
         <div class="paragraph">
           <div class="section--left-border mb-5 mt-5">
-            Hello. I am Jordan Malcolm. It’s a pleasure to meet you.
+            Hello. I am Jordan Malcolm. It’s a pleasure to meet you!
           </div><br>
           <div class="align--right section--right-border mb-5">
-            I am a dedicated and hard-working individual who is determined to master many different programs within a computer. Here is what I’m all about.
+            I am a dedicated and hard-working individual who is determined to help your business or brand stand out.
           </div><br>
           <div class="section--left-border mb-5">
-          I am running mediamalcolm as an independent business owner and I offer various types of digital media services. The main focus is to help a business strive with the production of high quality content for their brand.
+            Currently, I am based in Kitchener, Ontario, however, I can produce content for anyone who seeks it.
+          </div><br>
+          <div class="section__subheader">At mediamalcolm, I offer various types of digital media services:</div>
+          <div class="section--left-border mb-5 mt-5">
+            Short Videos for Promotion
           </div><br>
           <div class="align--right section--right-border mb-5">
-          Although based in Kitchener, Ontario, I am able to produce content for anyone who seeks it.
+            Typography Videos for Business
           </div><br>
           <div class="section--left-border mb-5">
-          I have earned my diploma in Radio Broadcast from Conestoga College and currently have plans to earn my diploma in Broadcasting Performance and Digital Media. But it’s my enormous passion for editing and producing content that properly aligns with the client’s brand that differentiates me from other digital media professionals.
+            Music Videos for Entertainment
           </div><br>
           <div class="align--right section--right-border mb-5">
-          Working on your behalf, I will learn about your business/brand, your customers, and your competition (Keeping all sensitive information confidential, of course). Then I will apply that knowledge to produce content that meets your objectives.
+            Crisp Audio for Radio
+          </div><br>
+
+          <div class="section--left-border mb-5">
+            Working on your behalf, I will learn about your business/brand, your customers, and your competition (Keeping all sensitive information confidential, of course). Then I will apply that knowledge to produce content that meets your objectives.
+          </div><br>
+          <div class="align--right section--right-border mb-5">
+            I have earned my diplomas in Radio Broadcast and Broadcasting Performance and Digital Media from Conestoga College. All my work is done with professional level equipment. I consider myself an edit mast and will format all work to the highest standard.
           </div><br>
           <div class="section--left-border mb-5">
-          You’ll get a positive experience, personalized service and benefits of the high quality equipment mediamalcolm offers. Your project is important to me, and I look forward to developing content for you as your digital media agency.
-          </div>
+            Your project is important to me. I look forward to helping with your project!
+          </div><br>
         </div>
-      </div>
     </div>
 
     <div class="section text-center">

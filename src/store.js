@@ -42,7 +42,6 @@ export default new Vuex.Store({
 
         categories.push({
           text,
-          to: `/category/${text}`,
         })
       }
 

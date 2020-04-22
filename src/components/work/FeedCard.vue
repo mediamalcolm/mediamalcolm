@@ -7,7 +7,7 @@
     @click="handleClick"
   >
     <v-img
-      :src="value.cardImage.includes('https://') || value.cardImage === '' ? value.cardImage : require('@/assets/articles/' + value.cardImage)"
+      :src="value.cardImage.includes('https://') || value.cardImage === '' ? value.cardImage : require('@/assets/' + value.cardImage)"
       height="100%"
       gradient="rgba(0, 0, 0, .42), rgba(0, 0, 0, .42)"
     >

@@ -15,7 +15,8 @@
         ~ What programs does mediamalcolm use to edit? ~
       </div>
       <div class="paragraph">
-        mediamalcolm uses a variety of softwares, but the focus is mainly on using Adobe Premiere Pro and Adobe After Effects for video along with Adobe Audition for sound.      </div>
+        mediamalcolm uses a variety of softwares, however the focus is mainly on using the Adobe Suite Collection.
+      </div>
     </div>
     <div class="section text-center">
       <div>

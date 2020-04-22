@@ -1,5 +1,5 @@
 <template>
-  <v-card color="white" style="padding: 0 25px 0 25px" flat>
+  <v-card color="white" style="padding: 1% 10% 0 10%" flat>
     <v-card-title class="lighten-2" primary-title>
       {{article ? article.title : ''}}
     </v-card-title>

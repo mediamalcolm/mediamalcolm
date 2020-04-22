@@ -6,6 +6,7 @@
         See all of our past exercises along with all of our recent projects for our clients.
       </v-card-text>
     </v-card>
+
     <v-row>
         <v-tabs background-color="transparent" centered class="mb-5">
           <v-tab
@@ -17,6 +18,12 @@
           </v-tab>
         </v-tabs>
     </v-row>
+
+    <div v-if="articles.length === 0"
+         class="text-center"
+    >
+      Content coming soon...
+    </div>
 
     <v-row>
       <transition-group
@@ -34,7 +41,6 @@
             :value="article"
             @click="handleClick"
           />
-
         </div>
       </transition-group>
 
@@ -70,7 +76,7 @@
     },
 
     data: () => ({
-      categories: ['All', 'Video', 'Audio', 'Photo', 'Portfolio'],
+      categories: ['All','Portfolio', 'Video', 'Audio', 'Photo', 'School Work'],
       articles: [],
       openDialog: false,
       currentArticle: { layout: null },
