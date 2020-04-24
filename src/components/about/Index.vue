@@ -45,7 +45,7 @@
             Working on your behalf, I will learn about your business/brand, your customers, and your competition (Keeping all sensitive information confidential, of course). Then I will apply that knowledge to produce content that meets your objectives.
           </div><br>
           <div class="align--right section--right-border mb-5">
-            I have earned my diplomas in Radio Broadcast and Broadcasting Performance and Digital Media from Conestoga College. All my work is done with professional level equipment. I consider myself an edit mast and will format all work to the highest standard.
+            I have earned my diplomas in Radio Broadcast and Broadcasting Performance and Digital Media from Conestoga College. All my work is done with professional level equipment. I consider myself an editing master and will format all work to the highest standard.
           </div><br>
           <div class="section--left-border mb-5">
             Your project is important to me. I look forward to helping with your project!

@@ -5,7 +5,7 @@
     "layout": "gallery",
     "date": "2019/04/22",
     "cardImage": "JordanMCinemagraphPic.jpg",
-    "images": ["JordanMCinemagraph.gif"],
+    "images": ["SurrealisticCinemaGraph.gif"],
     "description": "A looped video showcasing a dream/nightmare fantasy."
   },
   {
@@ -63,13 +63,13 @@
     "description": "An image where a wooden texture was reassigned with a white wolf."
   },
   {
-    "title": "Cinemagraph",
+    "title": "Surrealistic Cinemagraph",
     "category": "Portfolio",
     "layout": "gallery",
     "date": "2019/04/22",
     "cardImage": "BigWaterfall.jpg",
     "images": ["BigWaterfall.gif"],
-    "description": "A looped video showcasing a waterfall."
+    "description": "A looped video showcasing a waterfall in a dream/nightmare fantasy."
   },
   {
     "title": "Controlled Light",
